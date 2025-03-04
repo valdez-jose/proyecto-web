@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  background-color: black;
+}
+header{
+  height: 250px;
+  background-image: url(/assets/foto-haeder-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  header p{
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 50px;
+    color: blue;
+  }
+  .botones{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+ .botones > a{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  background-color: blue;
+  color: blanchedalmond;
+  }
+
+  .botones a:hover{
+    background-color: darkgreen;
+  }
+
+.contenedor__main{
+  height: 900px;
+}
+
+.contenedor__contenidos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.card{
+  width: 800px;
+  padding: 0.5rem;
+}
+
+img{
+  width: 100%;
+  height: 350px;
+}
+
+main > h1{
+  text-align: center;
+  color: blue;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.otras__fotos{
+  width: 99%;
+  height: 400px;
+  background-color: cadetblue;
+  display: flex;
+}
+.foto__texto{
+  width: 40%;
+  display: block;
+  text-align: justify;
+  padding: 1rem;
+  overflow: hidden;
+  }
+
+  .foto__titulo{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .foto__parrafo{
+    font-size: 25px;
+
+  }
+
+  .seccion__foto{
+    width: 99%;
+    height: px;
+    display: flex;
+  }
+  .seccion__foto > img {
+    width: 50%;
+    height: 100%;
+    margin-right: 3px;
+    border: 1px solid;
+  }
+
+
+footer{
+  height: 100px;
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > h1{
+    font-size: 40px;
+    color: white;
+}
+
+/*Responsive*/
+
+@media (max-width: 1200px){
+
+  header  p{
+    font-size: 30px;
+    color: red;
+  }
+  
+  .card{
+    width: 100%;
+  }
+  .otras__fotos{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .foto__texto{
+    width: 100%;
+  }
+
+
+}
