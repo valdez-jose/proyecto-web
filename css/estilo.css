@@ -8,7 +8,7 @@ body{
 }
 header{
   height: 250px;
-  background-image: url(/assets/foto-haeder-2.jpg);
+  background-image: url(assets/foto-haeder-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
